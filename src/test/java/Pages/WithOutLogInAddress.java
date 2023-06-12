@@ -22,6 +22,6 @@ public class WithOutLogInAddress {
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Shipping Address']/parent::android.view.View[1]/descendant::android.widget.EditText[3]")
     private WebElement AddStreet;
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Shipping Address']/parent::android.view.View[1]/descendant::android.widget.EditText[4]")
-    private WebElement AddCity;
+    private WebElement AddCityName;
 
 }
